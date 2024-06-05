@@ -89,9 +89,9 @@ header nav .nav-links a:hover::after {
     width: 100%;
 }
 .menu-icon {
-    display: none;
+    display: block;
     position: fixed;
-    top: 60px;
+    top: 20px;
     right: 20px;
     cursor: pointer;
     z-index: 101; /* Ensure the icon appears above other content */
@@ -482,22 +482,26 @@ section {
     }
     header nav .nav-links {
         display: none;
-        position: absolute;
-        top: 70px;
+        position: fixed;
+        top: 80px; /* Adjust as needed */
         left: 0;
         width: 100%;
-        background: var(--bg-color);
+        background: rgba(15, 9, 17, 0.6);
         text-align: center;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        padding: 1rem 5%; /* Adjusted padding */
-        z-index: 99;
-    }
+        padding: 1rem 5%;
+        z-index: 100;
+        }
+        
     header nav .nav-links.active {
         display: block;
     }
     header nav .nav-links a {
         display: block;
-        margin: 0.5rem 0;
+    padding: 20px;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: background 0.3s ease;
     }
     .home {
         margin-top: 200px; /* Adjust as needed */
@@ -560,9 +564,10 @@ section {
         position: fixed;
         top: 20px;
         right: 20px;
-        z-index: 101;
+        cursor: pointer;
+        z-index: 101; /* Ensure the icon appears above other content */
     }
-
+    
     .menu-icon i {
         font-size: 2.5rem;
         color: var(--text-color);
