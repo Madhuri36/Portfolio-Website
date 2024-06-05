@@ -10,6 +10,10 @@
 .hidden-checkbox {
     display: none;
 }
+
+.menu-icon-container {
+    display: none;
+}
 html {
     overflow-x: hidden;
 }
@@ -557,10 +561,13 @@ section {
         /* Remaining styles */
     }
     /* Show the hamburger menu icon */
+    .menu-icon-container {
+        display: block;
+    }
     .menu-icon {
         display: block;
         position: fixed;
-        top: 20px;
+        top: 60px;
         right: 20px;
         cursor: pointer;
         z-index: 101; /* Ensure the icon appears above other content */
