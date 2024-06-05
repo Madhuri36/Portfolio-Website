@@ -163,6 +163,19 @@
         </ul>
         <p class="copyright">&copy; Sai Madhuri | All Rights Reserved</p>
       </footer>
+      <script>
+        // Get the checkbox input element
+        var menuToggle = document.getElementById("menu-toggle");
+        
+        // Get the navigation menu element
+        var navLinks = document.querySelector(".nav-links");
+    
+        // Add event listener for the menu icon click
+        menuToggle.addEventListener("click", function() {
+            // Toggle the active class on the navigation menu
+            navLinks.classList.toggle("active");
+        });
+    </script>
     
 </body>
 </html>
