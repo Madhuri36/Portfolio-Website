@@ -88,15 +88,20 @@ header nav .nav-links a::after {
 header nav .nav-links a:hover::after {
     width: 100%;
 }
-#menu-icon {
-    display: block;
-    position: absolute;
-    top: 50%; /* Position at the vertical center of the header */
-    right: 5%; /* Adjust as needed */
-    transform: translateY(-50%);
+.menu-icon {
+    display: none;
+    position: fixed;
+    top: 60px;
+    right: 20px;
     cursor: pointer;
-    z-index: 101;
+    z-index: 101; /* Ensure the icon appears above other content */
 }
+
+.menu-icon i {
+    font-size: 2.5rem;
+    color: var(--text-color);
+}
+
 
 .home .home-content,
 .about .about-content,
@@ -553,13 +558,11 @@ section {
     .menu-icon {
         display: block;
         position: fixed;
-        top: 60px;
+        top: 20px;
         right: 20px;
-        cursor: pointer;
-        z-index: 101; /* Ensure the icon appears above other content */
+        z-index: 101;
     }
 
-    /* Styling for the menu icon */
     .menu-icon i {
         font-size: 2.5rem;
         color: var(--text-color);
