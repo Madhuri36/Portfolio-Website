@@ -495,7 +495,7 @@ section {
         margin: 0.5rem 0;
     }
     .home {
-        margin-top: 150px; /* Adjust as needed */
+        margin-top: 200px; /* Adjust as needed */
     }
     .home .home-content {
         flex-direction: column-reverse;
