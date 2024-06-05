@@ -8,10 +8,8 @@
     transition: all 0.3s ease;
 }
 .hidden-checkbox {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
-    }
+    display: none;
+}
 html {
     overflow-x: hidden;
 }
