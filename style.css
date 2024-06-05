@@ -494,6 +494,9 @@ section {
         display: block;
         margin: 0.5rem 0;
     }
+    .home {
+        margin-top: 60px; /* Adjust as needed */
+    }
     .home .home-content {
         flex-direction: column-reverse;
         text-align: center;
