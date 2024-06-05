@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <input type="checkbox" id="menu-toggle" class="hidden-checkbox">
+        <label for="menu-toggle" class="menu-icon"><i class='bx bx-menu'></i></label>
+        <nav class="navbar">
+            <a href="#home" class="logo">Portfolio</a>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about" class="active">About</a>
+                <a href="#skills" class="active">Skills</a>
+                <a href="#projects" class="active">Projects</a>
+                <a href="#contact" class="active">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="hero-text">
+                <h1>Sai Madhuri B.</h1>
+                <span>Frontend Developer</span>
+                <p>Lorem ipsum dolor sit amet consectetur, 
+                    adipisicing elit. Delectus alias, obcaecati ipsam 
+                    magni facilis vero voluptatibus amet adipisci veniam 
+                    aperiam sunt perspiciatis ea ratione omnis ad nisi iure 
+                    eum deserunt?</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+            <div class="hero-img">
+                <img src="images/hero.jpeg" alt="Hero-img">
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about"> 
+        <div class="about-content">
+            
+            <div class="about-wrapper">
+                <div class="about-img">
+                    <img src="images/hero.png" alt="About-img">
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Hi, I'm Sai Madhuri, a Computer Science student at IIIT Gwalior with a 
+                        passion for full stack web development and UI/UX design. My journey in the 
+                        tech world is driven by a love for creating visually appealing and user-friendly 
+                        interfaces. I thrive on translating complex ideas into intuitive designs and 
+                        bringing them to life with clean, efficient code. Whether it's building responsive 
+                        websites or crafting seamless user experiences, I am dedicated to blending creativity 
+                        with technical expertise. Welcome to my portfolio, where you can explore my projects and 
+                        see how I bring my vision to the digital world.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>   
+    
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skill-icons">
+            <img src="images/android-studio.svg" alt="Android Studio">
+            <img src="images/android.svg" alt="Android">
+            <img src="images/c (1).svg" alt="C">
+            <img src="images/c++.svg" alt="C++">
+            <img src="images/css.svg" alt="CSS">
+            <img src="images/figma.svg" alt="Figma" class="figma">
+            <img src="images/git.svg" alt="Git">
+            <img src="images/github.svg" alt="GitHub" class="github-icon">
+            <img src="images/html.svg" alt="HTML">
+            <img src="images/java.svg" alt="Java">
+            <img src="images/javascript.svg" alt="JavaScript"class=js>
+            <img src="images/mysql.svg" alt="MySQL">
+            <img src="images/python.svg" alt="Python">
+            <img src="images/react.svg" alt="React"> 
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <!-- Individual project cards go here -->
+            <div class="project-card">
+                <img src="images/portfolio.png" alt="Project 1">
+                <div class="project-info">
+                    <h3>Portfolio Website</h3>
+                    <p>A fully responsive and interactive personal portfolio website using html and css.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/starbucks.png" alt="Project 2">
+                <div class="project-info">
+                    <h3>Starbucks landing</h3>
+                    <p>An interactive clone website of Starbucks landing page using HTML and CSS.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/documentation.png" alt="Project 3">
+                <div class="project-info">
+                    <h3>Documentation page</h3>
+                    <p>A fully responisve and modern Python documentation page made with HTML and CSS.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <form action="#">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="E-mail">
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Phone Number">
+            <input type="text" placeholder="Subject">
+          </div>
+          <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+          <input type="submit" value="Send Message" class="btn">
+        </form>
+      </section>
+
+      <footer class="footer">
+        <div class="social-links">
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <ul class="list">
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+          <li>
+            <a href="#">About Me</a>
+          </li>
+          <li>
+            <a href="#">Skills</a>
+          </li>
+          <li>
+            <a href="#">Projects</a>
+          </li>
+          <li>
+            <a href="#">Contact Me</a>
+          </li>
+        </ul>
+        <p class="copyright">&copy; Sai Madhuri | All Rights Reserved</p>
+      </footer>
+    
+</body>
+</html>
